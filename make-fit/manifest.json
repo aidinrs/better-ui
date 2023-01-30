@@ -1,0 +1,15 @@
+{
+  "name": "Make Fit",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "description": "A browser extension for Edge and Chrome to make websites look how I like them to using CSS.",
+  "action": {
+    "default_popup": "./popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.github.com/*"],
+      "css": ["./styles/github.css"]
+    }
+  ]
+}
