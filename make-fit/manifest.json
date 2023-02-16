@@ -2,7 +2,7 @@
   "name": "Make Fit",
   "version": "0.0.2",
   "manifest_version": 3,
-  "description": "A browser extension for Edge and Chrome to make websites look how I like them to using CSS.",
+  "description": "A browser extension for Edge and Chrome to make websites look more readable and user-friendly using CSS.",
   "action": {
     "default_popup": "./popup.html"
   },
