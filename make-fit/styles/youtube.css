@@ -1,0 +1,17 @@
+ytd-text-inline-expander{
+  margin-top: 16px !important;
+}
+
+#info > span:nth-child(1).yt-formatted-string {
+  font-size: 1.8rem !important;
+}
+
+#info > span:nth-child(3).yt-formatted-string {
+  font-size: 1.8rem !important;
+  margin-left: 32px !important;
+  margin-right: 32px !important;
+}
+
+div#description {
+  margin-top: 32px !important;  
+}

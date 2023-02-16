@@ -1,6 +1,6 @@
 {
   "name": "Make Fit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 3,
   "description": "A browser extension for Edge and Chrome to make websites look how I like them to using CSS.",
   "action": {
@@ -10,6 +10,10 @@
     {
       "matches": ["https://*.github.com/*"],
       "css": ["./styles/github.css"]
+    },
+    {
+      "matches": ["https://*.youtube.com/*"],
+      "css": ["./styles/youtube.css"]
     }
   ]
 }
