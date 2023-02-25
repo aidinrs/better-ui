@@ -1,0 +1,19 @@
+div#b_content {
+  margin: auto !important;
+  max-width: 1280px !important;
+}
+
+header#b_header {
+  max-width: 1430px !important;
+  margin: auto !important;
+}
+
+div#id_h {
+  right: 0px !important;
+}
+/* :host(:not([mobile])[alignment="left"]) .scroller-positioner, :host(:not([mobile])[alignment="left"]) .footer */
+/* :host(:not([mobile]) .scroller-positioner { */
+/* :host(:not([mobile])) .scroller-positioner{
+  max-width: 1280px !important;
+  margin: auto !important;
+} */

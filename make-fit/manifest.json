@@ -2,11 +2,16 @@
   "name": "Make Fit",
   "version": "0.0.2",
   "manifest_version": 3,
-  "description": "A browser extension for Edge and Chrome to make websites look more readable and user-friendly using CSS.",
+  "description": "A browser extension for Edge and Chrome to make websites look more readable and user-friendly.",
   "action": {
     "default_popup": "./popup.html"
   },
   "content_scripts": [
+    {
+      "matches": ["https://*/*", "http://*/*"],
+      "allFrames" : true,
+      "js": ["./main.js"]
+    },
     {
       "matches": ["https://*.github.com/*"],
       "css": ["./styles/github.css"]
@@ -14,6 +19,10 @@
     {
       "matches": ["https://*.youtube.com/*"],
       "css": ["./styles/youtube.css"]
+    },
+    {
+      "matches": ["https://*.bing.com/search*"],
+      "css": ["./styles/bing.css"]
     }
   ]
 }
