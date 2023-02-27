@@ -15,3 +15,8 @@ ytd-text-inline-expander{
 div#description {
   margin-top: 32px !important;  
 }
+
+div#columns {
+  left: 201px !important;
+  position: relative !important;
+}
