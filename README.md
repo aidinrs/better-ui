@@ -2,6 +2,7 @@
 A browser extension for Edge and Chrome to make websites look more readable and user-friendly using CSS.
 
 ### List of visual changes:
+
 - github.com
   - The body becomes narrower.
 - youtube.com
