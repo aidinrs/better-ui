@@ -1,6 +1,6 @@
 {
-  "name": "Make Fit",
-  "version": "0.0.2",
+  "name": "Better UI",
+  "version": "0.0.3",
   "manifest_version": 3,
   "description": "A browser extension for Edge and Chrome to make websites look more readable and user-friendly.",
   "action": {
@@ -15,6 +15,10 @@
     {
       "matches": ["https://*.github.com/*"],
       "css": ["./styles/github.css"]
+    },
+    {
+      "matches": ["https://*.duckduckgo.com/*"],
+      "css": ["./styles/duckduckgo.css"]
     },
     {
       "matches": ["https://*.youtube.com/*"],
