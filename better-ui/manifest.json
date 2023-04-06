@@ -28,5 +28,10 @@
       "matches": ["https://*.bing.com/search*"],
       "css": ["./styles/bing.css"]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "betterui@enigmalabs.site"
+    }
+  }
 }

@@ -1,10 +1,15 @@
 div.results--main {
-  margin: auto !important;
-  float: unset;
+  /* margin: auto !important; */
+  /* float: unset; */
+  margin-left: calc(var(--max-content-width) + 48px);
+  /* display: inline-block; */
 }
+/* div.results--sidebar {
+  display: inline-block;
+} */
 
 div#header_wrapper {
-  max-width: 1024px !important;
+  max-width: 1288px !important;
   margin: auto !important;
 }
 
